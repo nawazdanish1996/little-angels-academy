@@ -1,7 +1,7 @@
-.navbar {
+.navbars {
   /* background-color: #282c34; */
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
-  background-color: #000;
+  background-color: #320d96;
   color: #fff;
   padding: 10px 0;
   position: fixed;
@@ -82,7 +82,7 @@ img{
 }
 
 .nav-link:hover {
-  background-color: #555;
+  background-color: #6148d3;
   border-radius: 5px;
 }
 
@@ -99,7 +99,7 @@ img{
     top: 55px;
     left: 0;
     /* background-color: #282c34; */
-    background-color: #000;
+    background-color: #320d96;
     width: 100%;
     max-height: ${isOpen ? '100vh' : '0'};
     overflow: hidden;
