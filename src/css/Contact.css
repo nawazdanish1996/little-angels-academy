@@ -1,0 +1,15 @@
+.contact{
+    min-height: 100vh;
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+.contact h1{
+    text-align: center;
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+    padding: 0 0 1rem 0;
+}
+
+.contact p{
+    text-align: justify;
+}
