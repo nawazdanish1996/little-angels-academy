@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Marquees from "./components/Marquees";
 const Home = lazy(()=> import("./pages/Home"));
 const About = lazy(()=> import("./pages/About"))
 const Contact = lazy(()=> import("./pages/Contact"))
@@ -9,6 +10,7 @@ const Contact = lazy(()=> import("./pages/Contact"))
 const App = () => {
   return (
     <Router>
+      <Marquees />
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Suspense fallback="loading..."><Home /></Suspense>} />

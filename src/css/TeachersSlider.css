@@ -1,0 +1,28 @@
+.teachersSlider .title{
+    text-align: center;
+}
+
+.slider-img-box{
+    /* background-color: #E9E2DC; */
+    /* border: 1px solid #780000; */
+    line-height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 150px;
+    box-shadow: -10px 0 10px -10px rgba(0, 0, 0, 1), 10px 0 10px -10px rgba(0, 0, 0, 1);
+}
+
+.rfm-marquee-contain{
+    height: 100%;
+}
+
+.teachers-box{
+    display: flex;
+    height: 100%;
+}
+
+.teachersSlider img{
+    width: 120px;
+}

@@ -8,11 +8,14 @@ const Marquees = () => {
       speed={50}
       style={{
         fontWeight: "bold", 
-        color: "green",
-        fontSize: "18px"
+        color: "white",
+        fontSize: "15px",
+        backgroundColor: "#320d96",
+        padding: "5px",
+        position: "fixed"
       }}
     >
-      Admission is going on
+      Admission is going on 15/05/2055 - 25-25-2056
     </Marquee>
   )
 }
