@@ -29,6 +29,9 @@ const Navbar = () => {
             <a href="/" className="nav-link" onClick={toggleMenu}>Home</a>
           </li>
           <li className="nav-item">
+            <a href="/our_teachers" className="nav-link" onClick={toggleMenu}>Our Teachers</a>
+          </li>
+          <li className="nav-item">
             <a href="/about" className="nav-link" onClick={toggleMenu}>About</a>
           </li>
           <li className="nav-item">

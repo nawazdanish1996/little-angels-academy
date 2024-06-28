@@ -7,6 +7,7 @@ import SocialMedia from "./components/SocialMedia";
 const Home = lazy(()=> import("./pages/Home"));
 const About = lazy(()=> import("./pages/About"))
 const Contact = lazy(()=> import("./pages/Contact"))
+const Teachers = lazy(()=> import("./pages/Teachers"))
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route exact path="/" element={<Suspense fallback="loading..."><Home /></Suspense>} />
         <Route exact path="/about" element={<Suspense fallback="loading..."><About /></Suspense>} />
         <Route exact path="/contact" element={<Suspense fallback="loading..."><Contact /></Suspense>} />
+        <Route exact path="/our_teachers" element={<Suspense fallback="loading..."><Teachers /></Suspense>} />
       </Routes>
       <Footer />
     </Router>

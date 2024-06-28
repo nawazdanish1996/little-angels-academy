@@ -12,7 +12,8 @@ const Marquees = () => {
         fontSize: "15px",
         backgroundColor: "#320d96",
         padding: "5px",
-        position: "fixed"
+        position: "fixed",
+        zIndex: "10000"
       }}
     >
       Admission is going on 15/05/2055 - 25-25-2056

@@ -1,0 +1,19 @@
+.teachers{
+    min-height: 100vh;
+    padding: 7rem 2rem 2rem 2rem;
+}
+
+.teachers table{
+    margin: 0 auto;
+}
+
+.teachers th,
+.teachers td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.teachers img{
+    width: 120px;
+    height: 150px;
+}
