@@ -3,6 +3,7 @@ import { Suspense, lazy } from "react";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Marquees from "./components/Marquees";
+import SocialMedia from "./components/SocialMedia";
 const Home = lazy(()=> import("./pages/Home"));
 const About = lazy(()=> import("./pages/About"))
 const Contact = lazy(()=> import("./pages/Contact"))
@@ -12,6 +13,7 @@ const App = () => {
     <Router>
       <Marquees />
       <Navbar />
+      <SocialMedia />
       <Routes>
         <Route exact path="/" element={<Suspense fallback="loading..."><Home /></Suspense>} />
         <Route exact path="/about" element={<Suspense fallback="loading..."><About /></Suspense>} />

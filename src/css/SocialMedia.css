@@ -1,0 +1,30 @@
+.social-media{
+    z-index: 11000;
+    color: white;
+    position: fixed;
+    top: 50%;
+    width: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.social-slide-icon{
+    background-color: green;
+    padding: 0px 10px 0px 10px;
+    transition: all .5s ease;
+}
+
+.social-slide-icon:hover{
+    background-color: green;
+    padding: 0px 4px 0px 4px;
+}
+
+.social-media a{
+    color: #ffffff;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.social-media a:hover{
+    color: #61dafb;
+}

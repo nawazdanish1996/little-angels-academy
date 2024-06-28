@@ -1,17 +1,21 @@
+.teachersSlider{
+    margin-top: 1rem;
+}
 .teachersSlider .title{
     text-align: center;
 }
 
 .slider-img-box{
     /* background-color: #E9E2DC; */
-    /* border: 1px solid #780000; */
     line-height: 40px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
     height: 150px;
     box-shadow: -10px 0 10px -10px rgba(0, 0, 0, 1), 10px 0 10px -10px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .rfm-marquee-contain{
