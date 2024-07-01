@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -12,7 +12,7 @@ const Teachers = lazy(()=> import("./pages/Teachers"))
 
 const App = () => {
   return (
-    <Router>
+    <HashRouter>
       <Marquees />
       <GoToTop />
       <Navbar />
@@ -24,7 +24,7 @@ const App = () => {
         <Route path="/our_teachers" element={<Suspense fallback="loading..."><Teachers /></Suspense>} />
       </Routes>
       <Footer />
-    </Router>
+    </HashRouter>
   )
 }
 
