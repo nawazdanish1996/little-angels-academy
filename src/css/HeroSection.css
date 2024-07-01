@@ -12,7 +12,7 @@
 .hero-box{
     /* border: 1px solid red; */
     width: 500px;
-    height: 100px;
+    min-height: 100px;
     position: absolute;
     left: 50%;
     top: 75%;
@@ -28,4 +28,24 @@
 
 .hero-box .quote h1{
     margin: 0 0 5px 0;
+}
+
+@media (max-width: 650px) {
+    .hero-box{
+        width: 400px;
+    }
+    .hero-box .quote h1{
+        font-size: 25px;
+    }
+}
+@media (max-width: 450px) {
+    .hero-box{
+        width: 300px;
+    }
+    .hero-box .quote h1{
+        font-size: 20px;
+    }
+    .hero-box .quote p{
+        font-size: 12px;
+    }
 }

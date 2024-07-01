@@ -1,0 +1,19 @@
+.go-to-top{
+    background-color: #070214;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 90%;
+    left: 95%;
+    position: fixed;
+    z-index: 15000;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+@media (max-width: 800px){
+    .go-to-top{
+        left: 90%;
+    }
+}

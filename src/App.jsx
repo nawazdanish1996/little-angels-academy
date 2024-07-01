@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Marquees from "./components/Marquees";
 import SocialMedia from "./components/SocialMedia";
+import GoToTop from "./components/GoToTop";
 const Home = lazy(()=> import("./pages/Home"));
 const About = lazy(()=> import("./pages/About"))
 const Contact = lazy(()=> import("./pages/Contact"))
@@ -13,6 +14,7 @@ const App = () => {
   return (
     <Router>
       <Marquees />
+      <GoToTop />
       <Navbar />
       <SocialMedia />
       <Routes>
