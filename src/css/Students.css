@@ -1,0 +1,45 @@
+.school-me{
+    padding: 6rem 0 1rem 0;
+    text-align: center;
+}
+
+.students{
+    /* min-height: 100vh; */
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    /* grid-template-rows: 300px 200px; */
+}
+
+.students .students-box{
+    border: 1px solid red;
+    background-color: rgb(247, 220, 220);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.students .students-box h2{
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+.students .students-box a{
+    text-decoration: underline;
+    margin-top: .2rem;
+}
+.students .students-box a:hover{
+    color: rgb(39, 38, 38);
+}
+
+@media (max-width: 768px) {
+    .students{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .students{
+        grid-template-columns: 1fr;
+    }
+    .students .students-box{
+    }
+}

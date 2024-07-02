@@ -9,6 +9,7 @@ const Home = lazy(()=> import("./pages/Home"));
 const About = lazy(()=> import("./pages/About"))
 const Contact = lazy(()=> import("./pages/Contact"))
 const Teachers = lazy(()=> import("./pages/Teachers"))
+const Students = lazy(()=> import("./pages/Students"))
 const NotFound = lazy(()=> import("./pages/NotFound"));
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/about" element={<Suspense fallback="loading..."><About /></Suspense>} />
         <Route path="/contact" element={<Suspense fallback="loading..."><Contact /></Suspense>} />
         <Route path="/our_teachers" element={<Suspense fallback="loading..."><Teachers /></Suspense>} />
+        <Route path="/students" element={<Suspense fallback="loading..."><Students /></Suspense>} />
         <Route path="*" element={<Suspense fallback="loading..."><NotFound /></Suspense>} />
       </Routes>
       <Footer />
