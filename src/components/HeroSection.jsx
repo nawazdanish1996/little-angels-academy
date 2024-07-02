@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="hero-box">
         <div className="quote">
           <h1>Little Angel{"'"}s Academy</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, est in! Soluta dicta deserunt dolor provident, ea quos saepe reprehenderit.</p>
+          <p>At Little Angel{"'"}s Academy, we nurture young minds with love, creativity, and curiosity, shaping bright futures with care and dedication every single day.</p>
         </div>
       </div>
     </div>
