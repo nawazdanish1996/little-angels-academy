@@ -40,6 +40,6 @@
     .students{
         grid-template-columns: 1fr;
     }
-    .students .students-box{
-    }
+    /* .students .students-box{
+    } */
 }
