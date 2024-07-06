@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Marquees from "./components/Marquees";
 import SocialMedia from "./components/SocialMedia";
 import GoToTop from "./components/GoToTop";
+import Developer from "./UnUsedComponents/Developer";
 const Home = lazy(()=> import("./pages/Home"));
 const About = lazy(()=> import("./pages/About"))
 const Contact = lazy(()=> import("./pages/Contact"))
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="*" element={<Suspense fallback="loading..."><NotFound /></Suspense>} />
       </Routes>
       <Footer />
+      <Developer />
     </Router>
   )
 }

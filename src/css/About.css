@@ -1,15 +1,22 @@
 .about{
-    min-height: 100vh;
     padding: 5.5rem 2rem 2rem 2rem;
+    min-height: 100vh;
 }
 
 .about h1{
+    text-decoration: underline;
     text-align: center;
-    text-decoration-line: underline;
-    text-underline-offset: 3px;
-    padding: 0 0 1rem 0;
+    color: green;
+}
+
+.about h3{
+    text-decoration: underline;
 }
 
 .about p{
     text-align: justify;
+}
+
+.about p span{
+    font-weight: bold;
 }
