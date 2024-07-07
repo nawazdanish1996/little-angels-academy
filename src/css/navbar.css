@@ -25,7 +25,7 @@ a{
   text-decoration: none;
 }
   
-img{
+.navbar-container img{
   width: 40px;
   margin: 0 1rem 0 0;
 }  
@@ -87,7 +87,21 @@ img{
 }
 
 /* Media Query for Responsive Design */
-@media screen and (max-width: 768px) {
+@media(max-width: 879px){
+  .navbar-container img{
+    width: 40px;
+  }
+  .logo{
+    font-size: 17px;
+  }
+}
+@media(max-width: 310px){
+  .logo{
+    font-size: 12spx;
+  }
+}
+
+@media(max-width: 768px) {
   .menu-icon {
     display: block;
   }
