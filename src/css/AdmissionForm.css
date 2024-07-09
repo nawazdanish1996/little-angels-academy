@@ -2,7 +2,7 @@
 
 .admission-form-container {
     font-family: Arial, sans-serif;
-    padding: 7rem 2rem 2rem 2rem;
+    padding: 7rem 2rem 4rem 2rem;
     max-width: 600px;
     margin: 0 auto;
     background-color: #f9f9f9;
@@ -13,10 +13,6 @@
 .admission-form-container h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #2c3e50;
-}
-
-.admission-form-container option:first-child{
     color: #2c3e50;
 }
 

@@ -6,7 +6,7 @@ const AdmissionForm = () => {
         name: '',
         fathersName: '',
         mothersName: '',
-        class: '',
+        class: 'Nursery',
         dob: '',
         presentAddress: '',
         permanentAddress: '',
@@ -34,7 +34,7 @@ const AdmissionForm = () => {
             name: '',
             fathersName: '',
             mothersName: '',
-            class: '',
+            class: 'Nursery',
             dob: '',
             presentAddress: '',
             permanentAddress: '',
@@ -61,11 +61,14 @@ const AdmissionForm = () => {
                     <input type="text" name="mothersName" value={form.mothersName} onChange={handleChange} required />
                 </label>
                 <label>
+                    Date of Birth:
+                    <input type="date" name="dob" value={form.dob} onChange={handleChange} required />
+                </label>
+                <label>
                     Applying for Class:
                     <select name="class" value={form.class} onChange={handleChange} required>
-                        <option value="Not Selected">Not Selected</option>
-                        <option value="Nursery">Nursery</option>
                         <option value="Pre-Nursery">Pre-Nursery</option>
+                        <option value="Nursery">Nursery</option>
                         <option value="LKG">LKG</option>
                         <option value="UKG">UKG</option>
                         <option value="I">I</option>
@@ -74,11 +77,13 @@ const AdmissionForm = () => {
                         <option value="IV">IV</option>
                         <option value="V">V</option>
                         <option value="VI">VI</option>
+                        <option value="VI">VII</option>
+                        <option value="VI">VIII</option>
                     </select>
                 </label>
                 <label>
-                    Date of Birth:
-                    <input type="date" name="dob" value={form.dob} onChange={handleChange} required />
+                    From Which School Did You Pass Last Year:
+                    <input type="text" name="lastSchool" value={form.lastSchool} onChange={handleChange} required />
                 </label>
                 <label>
                     Present Address:
@@ -95,10 +100,6 @@ const AdmissionForm = () => {
                 <label>
                     Email:
                     <input type="email" name="email" value={form.email} onChange={handleChange} required />
-                </label>
-                <label>
-                    From Which School Did You Pass Last Year:
-                    <input type="text" name="lastSchool" value={form.lastSchool} onChange={handleChange} required />
                 </label>
                 <div className="form-buttons">
                     <button type="submit">Submit</button>
