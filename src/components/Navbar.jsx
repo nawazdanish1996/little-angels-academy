@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
           <div className="menu-line"></div>
-          <div className="menu-line"></div>
+          <div className="menu-line menu-line-two"></div>
           <div className="menu-line"></div>
         </div>
         <ul className={`nav-menu ${isOpen ? 'open' : 'hide'}`}>
