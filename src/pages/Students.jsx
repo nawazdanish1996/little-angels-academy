@@ -7,7 +7,8 @@ const Students = () => {
     <div className="students">
       <div className="students-box">
         <h2>Main Section</h2>
-        <a href="">Admission Form 2024</a>
+        <a href="admission_form">Online Admission 2024</a>
+        <a href="">Offline Admission Form 2024</a>
         <a href="">Registration Form 2024</a>
       </div>
       <div className="students-box">
