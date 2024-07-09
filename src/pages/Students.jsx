@@ -1,4 +1,5 @@
 import "../css/Students.css";
+import AdmissionForm  from "/Form/AdmissionForm2024.pdf"
 
 const Students = () => {
   return (
@@ -8,8 +9,8 @@ const Students = () => {
       <div className="students-box">
         <h2>Main Section</h2>
         <a href="admission_form">Online Admission 2024</a>
-        <a href="">Offline Admission Form 2024</a>
-        <a href="">Registration Form 2024</a>
+        <a href={AdmissionForm} target="blank">Offline Admission Form 2024</a>
+        <a href="" target="blank">Registration Form 2024</a>
       </div>
       <div className="students-box">
         <h2>Result 2024</h2>
