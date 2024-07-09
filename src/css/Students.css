@@ -1,10 +1,10 @@
 .school-me{
     padding: 6rem 0 1rem 0;
     text-align: center;
+    user-select: none;
 }
 
 .students{
-    /* min-height: 100vh; */
     display: grid;
     grid-template-columns: repeat(3, 5fr);
     /* grid-template-rows: 300px 200px; */
@@ -25,10 +25,11 @@
 
 .students .students-box a{
     text-decoration: underline;
-    margin-top: .2rem;
+    margin-top: .4rem;
+    color: black;
 }
 .students .students-box a:hover{
-    color: rgb(39, 38, 38);
+    color: rgb(65, 63, 63);
 }
 
 @media (max-width: 768px) {

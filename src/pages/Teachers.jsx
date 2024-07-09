@@ -1,5 +1,5 @@
 import "../css/Teachers.css";
-import img from "/TeachersSlider/1.jpeg"
+import img from "/TeachersSlider/nd.jfif"
 
 const Teachers = () => {
     const teachersDetails = [
@@ -33,9 +33,9 @@ const Teachers = () => {
         <table>
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Qualification</th>
-                    <th>Teaching</th>
+                    <th className="tp">Name</th>
+                    <th className="tp">Qualification</th>
+                    <th className="tp">Teaching</th>
                     <th>Image</th>
                 </tr>
             </thead>
@@ -44,9 +44,9 @@ const Teachers = () => {
                     teachersDetails.map((val, ind)=>{
                         return(
                             <tr key={ind}>
-                                <td>{val.name}</td>
-                                <td>{val.qualification}</td>
-                                <td>{val.teaching}</td>
+                                <td className="tp">{val.name}</td>
+                                <td className="tp">{val.qualification}</td>
+                                <td className="tp">{val.teaching}</td>
                                 <td><img src={val.img} alt={val.name} /></td>
                             </tr>
                         )

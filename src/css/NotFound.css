@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.notfound span{
+    color: rgb(138, 135, 135);
+}
+
 .notfound div a{
-    margin: auto 25%;
+    margin: 1.5% 25%;
+    text-decoration: underline;
 }

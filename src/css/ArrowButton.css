@@ -1,0 +1,15 @@
+.arrow-button{
+    position: fixed;
+    top: 42.6%;
+    transition: all 1s ease;
+}
+
+.arrow-button button{
+    font-size: 40px;
+    background-color: green;
+    border: none;
+}
+
+.arrow-button button:hover{
+    background-color: rgb(4, 61, 4);
+}
