@@ -1,13 +1,17 @@
 import "../css/navbar.css"
 import { useState } from 'react';
-import Logo from "/logo/logo2.jpg"
+import Logo from "/logo/logo2.jpg";
+import useSound from "use-sound";
+import sound from "/sound/sucess_sound.mp3"
 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [play] = useSound(sound);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    return play();
   };
 
   return (

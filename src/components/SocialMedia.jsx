@@ -1,16 +1,21 @@
 import {useState} from "react";
+import "../css/SocialMedia.css";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
-import "../css/SocialMedia.css";
+import useSound from "use-sound";
+import sound from "/sound/sucess_sound.mp3"
 
 const SocialMedia = () => {
-    const [isTrue, setIsTrue] = useState(true);
+    const [isTrue, setIsTrue] = useState(false);
+    const [play] = useSound(sound);
 
     const toggleIsTrue = () =>{
         if(isTrue === true){
             setIsTrue(false);
+            return  play();
         }else{
             setIsTrue(true);
+            return  play();
         }
     }
 
