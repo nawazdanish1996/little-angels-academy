@@ -8,8 +8,8 @@ const Students = () => {
     <div className="students">
       <div className="students-box">
         <h2>Main Section</h2>
-        <a href="admission_form">Online Admission 2024</a>
-        <a href={AdmissionForm} target="blank">Offline Admission Form 2024</a>
+        <a href="admission_form">Online Admission 2024 <span className="blink">&nbsp; New</span></a>
+        <a href={AdmissionForm} target="blank">Offline Admission Form 2024 <span className="blink">&nbsp; New</span></a>
         <a href="" target="blank">Registration Form 2024</a>
       </div>
       <div className="students-box">
@@ -27,7 +27,7 @@ const Students = () => {
       </div>
       <div className="students-box">
         <h2>Notice</h2>
-        <a href="">Admission 2024 Notice</a>
+        <a href="">Admission 2024 Notice <span className="blink">&nbsp; New</span></a>
         <a href="">Registration 2024 Notice</a>
         <a href="">Guardain{"'"}s Meeting April 2024</a>
       </div>

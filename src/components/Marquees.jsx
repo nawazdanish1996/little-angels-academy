@@ -19,7 +19,7 @@ const Marquees = () => {
       }}
     >
       <p>
-        <span>New </span> 
+        <span className="blink">New </span> 
         Admission is going on 15/05/2055 - 25-25-2056
         <span> New</span> 
       </p>
