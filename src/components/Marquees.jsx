@@ -18,11 +18,7 @@ const Marquees = () => {
         zIndex: "10000"
       }}
     >
-      <p>
-        <span className="blink">New </span> 
-        Admission is going on 15/05/2055 - 25-25-2056
-        <span> New</span> 
-      </p>
+      <p>Admission is going on 15/05/2055 - 25-25-2056</p>
     </Marquee>
   )
 }

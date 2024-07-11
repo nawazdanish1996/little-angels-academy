@@ -1,0 +1,15 @@
+.gallary{
+    min-height: 100vh;
+    padding: 7rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+.gallary .gallary-images-box{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.gallary-images-box .img-div{
+    border: 1px solid red;
+}
