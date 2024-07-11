@@ -22,10 +22,10 @@ const AdmissionForm = () => {
 
     useEffect(() => {
         // Generate a 4-digit random serial number
-        const randomSerialNumber = Math.floor(1000 + Math.random() * 9000);
+        const randomNumber = Math.floor(1000 + Math.random() * 9000);
         setForm(prevForm => ({
             ...prevForm,
-            serialNumber: randomSerialNumber.toString()
+            serialNumber: randomNumber.toString()
         }));
     }, []);
 

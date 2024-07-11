@@ -24,6 +24,7 @@
 }
 
 .students .students-box a{
+    display: flex;
     text-decoration: underline;
     margin-top: .4rem;
     color: black;
