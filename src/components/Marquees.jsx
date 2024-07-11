@@ -1,9 +1,11 @@
 import Marquee from "react-fast-marquee";
+import "../css/Marquees.css"
 
 const Marquees = () => {
   return (
     <Marquee
       pauseOnHover={true}
+      className="marquees"
       direction="left"
       speed={50}
       style={{
@@ -16,7 +18,11 @@ const Marquees = () => {
         zIndex: "10000"
       }}
     >
-      Admission is going on 15/05/2055 - 25-25-2056
+      <p>
+        <span>New </span> 
+        Admission is going on 15/05/2055 - 25-25-2056
+        <span> New</span> 
+      </p>
     </Marquee>
   )
 }

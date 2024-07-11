@@ -5,6 +5,16 @@
     text-align: center;
 }
 
-.developer a{
-    display: block;
+.developer p{
+    line-height: 1.5rem;
+}
+
+.developer p a{
+    font-weight: bold;
+    color: rgb(61, 33, 131);
+    text-decoration: none;
+}
+
+.developer p a:hover{
+    color: rgb(69, 63, 148);
 }

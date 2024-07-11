@@ -1,14 +1,15 @@
 .admission-form-container {
+    padding: 7rem 2rem 2rem 2rem;
     font-family: Arial, sans-serif;
-    padding: 7rem 2rem 4rem 2rem;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    user-select: none;
 }
 
-.admission-form-container h1 {
+.admission-form-container h1, .admission-form-container h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #2c3e50;
@@ -39,6 +40,22 @@
     resize: vertical;
 }
 
+.terms-and-conditions {
+    width: 100%;
+    color: #34495e;
+}
+
+.terms-and-conditions input {
+    width: 5%;
+    float: left;
+}
+
+.terms-and-conditions label{
+    width: 95%;
+    float: right;
+    margin-top: 3px;
+}
+
 .form-buttons {
     display: flex;
     justify-content: space-between;
@@ -64,4 +81,22 @@
 
 .form-buttons button:hover {
     opacity: 0.9;
+}
+
+.form-summary {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-summary p {
+    margin: 5px 0;
+    color: black;
+}
+
+.form-summary h5{
+    text-align: center;
+    color: #34495e;
 }

@@ -41,6 +41,9 @@
 }
 
 .social-media a{
+    display: flex;
+    user-select: none;
+    text-decoration: none;
     color: #ffffff;
     font-size: 50px;
     text-decoration: none;
